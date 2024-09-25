@@ -154,6 +154,30 @@ section {
   border-bottom: 1px solid #ccc;
 }
 
+form {
+  font-size: 25px;
+  max-width: 660px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 15px;
+}
+
+#submit {
+  font-size: 15px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 0 0 12px -2px black;
+}
+
 @media screen and (max-width: 625px) {
   .project {
     width: 100%;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>My Personal Website</title>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <h1>Steven L Rodriguez</h1>
+      </div>
+      <div id="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <h1>Contact Me:</h1>
+
+      <form id="form">
+        <div>
+          <label for="name">Name:</label><br />
+          <input id="name" type="text" name="name" />
+        </div>
+
+        <div>
+          <label for="email">Email:</label><br />
+          <input id="email" type="email" name="email" />
+        </div>
+        <div>
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="6" cols="50"></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <script src="javascript.js"></script>
+    </main>
+    <footer>
+      <a href="https://facebook.com" target="_blank">
+        <img class="media-link" src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="Facebook" />
+      </a>
+      <a href="https://linkedin.com" target="_blank">
+        <img class="media-link" src="https://icons.veryicon.com/png/o/miscellaneous/alibaba-cloud-ui-icon-library/linkedin-124.png" alt="Linkedin" />
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img class="media-link" src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/1227/X-512.png" alt="Twitter" />
+      </a>
+    </footer>
+  </body>
+</html>
